@@ -11,6 +11,8 @@
         <module>cloud-api-commons</module>
         <module>cloud-provide-payment</module>
         <module>cloud-consumer-order</module>
+        <module>cloud-eureka-server</module>
+        <module>cloud-eureka-server02</module>
     </modules>
 
     <!-- 首先修改打包方式 -->
