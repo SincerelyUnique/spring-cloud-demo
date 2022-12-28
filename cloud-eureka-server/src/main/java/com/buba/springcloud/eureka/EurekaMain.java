@@ -1,12 +1,12 @@
-package com.buba.springcloud;
+package com.buba.springcloud.eureka;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
+import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 
 /**
  * <p>
- * <code>PayMentMain</code>
+ * <code>EurekaMain</code>
  * </p>
  * Description:
  *
@@ -14,9 +14,9 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
  * @date: 12/28/2022
  **/
 @SpringBootApplication
-@EnableEurekaClient
-public class PayMentMain {
+@EnableEurekaServer
+public class EurekaMain {
     public static void main(String[] args) {
-        SpringApplication.run(PayMentMain.class, args);
+        SpringApplication.run(EurekaMain.class, args);
     }
 }
